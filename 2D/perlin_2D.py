@@ -85,7 +85,7 @@ graph = plot.figure().add_subplot(projection='3d');
 graph.plot_surface(X, Y, np.array(points), cmap='terrain', rcount=128, ccount=128);
 graph.set_proj_type('persp');
 
-graph.view_init(elev=60.0);
+graph.view_init(elev=30.0);
 
 axes = plot.gca();
 axes.set_zlim([None, 5]);
